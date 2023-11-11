@@ -20,6 +20,7 @@
 		D36DD9E62AFEA77700CA5A8A /* GhostDrawingBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36DD9E52AFEA77700CA5A8A /* GhostDrawingBoardTests.swift */; };
 		D36DD9ED2AFEC7BB00CA5A8A /* DrawingBoardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36DD9EC2AFEC7BB00CA5A8A /* DrawingBoardViewModelTests.swift */; };
 		D3F5B29A2AFF0308004ABB5B /* DrawingColorConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5B2992AFF0308004ABB5B /* DrawingColorConfigTests.swift */; };
+		D3F82BD62AFFF29C001413B2 /* CanvasViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F82BD52AFFF29C001413B2 /* CanvasViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D36DD9E52AFEA77700CA5A8A /* GhostDrawingBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostDrawingBoardTests.swift; sourceTree = "<group>"; };
 		D36DD9EC2AFEC7BB00CA5A8A /* DrawingBoardViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBoardViewModelTests.swift; sourceTree = "<group>"; };
 		D3F5B2992AFF0308004ABB5B /* DrawingColorConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingColorConfigTests.swift; sourceTree = "<group>"; };
+		D3F82BD52AFFF29C001413B2 /* CanvasViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				D36DD9E52AFEA77700CA5A8A /* GhostDrawingBoardTests.swift */,
 				D36DD9EC2AFEC7BB00CA5A8A /* DrawingBoardViewModelTests.swift */,
 				D3F5B2992AFF0308004ABB5B /* DrawingColorConfigTests.swift */,
+				D3F82BD52AFFF29C001413B2 /* CanvasViewTests.swift */,
 			);
 			path = GhostDrawingBoardTests;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				D36DD9ED2AFEC7BB00CA5A8A /* DrawingBoardViewModelTests.swift in Sources */,
 				D36DD9E62AFEA77700CA5A8A /* GhostDrawingBoardTests.swift in Sources */,
+				D3F82BD62AFFF29C001413B2 /* CanvasViewTests.swift in Sources */,
 				D3F5B29A2AFF0308004ABB5B /* DrawingColorConfigTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

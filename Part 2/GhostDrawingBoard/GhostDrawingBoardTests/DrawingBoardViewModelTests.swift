@@ -31,28 +31,3 @@ final class DrawingBoardViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.getColorForIndex(index: 2), .blue)
     }
 }
-
-final class TestCanvasView: XCTestCase {
-    var canvasView: CanvasView!
-    override func setUp() {
-        super.setUp()
-        canvasView = CanvasView()
-    
-    }
-    
-    override func tearDown() {
-        canvasView = nil
-        super.tearDown()
-    }
-    
-    func testCanvasView() {
-        XCTAssertEqual(canvasView.drawingColor, .red)
-
-        canvasView.didTapEraser()
-        XCTAssertEqual(canvasView.drawingColor, .erase)
-        
-        canvasView.didSelectColor(.blue)
-        XCTAssertEqual(canvasView.drawingColor, .blue)
-
-    }
-}
